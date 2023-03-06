@@ -9,7 +9,7 @@ Used to implement the View Code pattern
 ```
 - [Alamofire](https://github.com/Alamofire/Alamofire)
 ```bash
-Used to do requests
+Used to make http requests
 ```
 - [SiwftyJson](https://github.com/SwiftyJSON/SwiftyJSON)
 ```bash
