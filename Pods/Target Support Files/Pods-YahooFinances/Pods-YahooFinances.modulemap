@@ -1,0 +1,6 @@
+framework module Pods_YahooFinances {
+  umbrella header "Pods-YahooFinances-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,42 @@
+PODS:
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+    - url_launcher_ios
+  - SnapKit (5.6.0)
+  - url_launcher_ios (0.0.1):
+    - Flutter
+  - yahoo_finances_module (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `yahoo_finances_module/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `yahoo_finances_module/.ios/Flutter/FlutterPluginRegistrant`)
+  - SnapKit
+  - url_launcher_ios (from `yahoo_finances_module/.ios/.symlinks/plugins/url_launcher_ios/ios`)
+  - yahoo_finances_module (from `yahoo_finances_module/.ios/Flutter`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: yahoo_finances_module/.ios/Flutter/engine
+  FlutterPluginRegistrant:
+    :path: yahoo_finances_module/.ios/Flutter/FlutterPluginRegistrant
+  url_launcher_ios:
+    :path: yahoo_finances_module/.ios/.symlinks/plugins/url_launcher_ios/ios
+  yahoo_finances_module:
+    :path: yahoo_finances_module/.ios/Flutter
+
+SPEC CHECKSUMS:
+  Flutter: bdfa2e8fe0e2880a2c6a58a0b1a8675c262a07af
+  FlutterPluginRegistrant: 31159acd285ba5f4e73bad11bb2cc4ced2e925e9
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  url_launcher_ios: ae1517e5e344f5544fb090b079e11f399dfbe4d2
+  yahoo_finances_module: cbb56282d6f1bcd1fffde32b8fb05fd8d210fb1e
+
+PODFILE CHECKSUM: 6742e72e90db5298a48d37044964d12446beaf84
+
+COCOAPODS: 1.12.0

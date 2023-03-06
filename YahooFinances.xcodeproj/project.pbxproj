@@ -3,27 +3,65 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		796A0E0B32D3BAD7207D7923 /* Pods_YahooFinances.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB129C76805C6A4F32BF23F /* Pods_YahooFinances.framework */; };
+		DC0760AE29B2864F0025DD69 /* FlutterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0760AD29B2864F0025DD69 /* FlutterManager.swift */; };
+		DC3C13A929B22EB600CE471B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DC3C13A829B22EB600CE471B /* Alamofire */; };
+		DC3C13AC29B22EDD00CE471B /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = DC3C13AB29B22EDD00CE471B /* SwiftyJSON */; };
+		DC3C13AF29B232E500CE471B /* ActiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3C13AE29B232E500CE471B /* ActiveCell.swift */; };
+		DC3C13B129B233C400CE471B /* ActiveCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3C13B029B233C400CE471B /* ActiveCellModel.swift */; };
+		DC3C13B329B236B600CE471B /* UITableViewCell+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3C13B229B236B600CE471B /* UITableViewCell+Extensions.swift */; };
+		DCB8865F29B20FAF002D7C3B /* YahooFinancesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB8865E29B20FAF002D7C3B /* YahooFinancesProvider.swift */; };
+		DCB8866129B21049002D7C3B /* YahooFinancesModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB8866029B21049002D7C3B /* YahooFinancesModels.swift */; };
+		DCD7A2FB29B58E2C00EF1C4F /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD7A2FA29B58E2C00EF1C4F /* HeaderCell.swift */; };
 		DCD9C77029B15B1600B2425C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9C76F29B15B1600B2425C /* AppDelegate.swift */; };
-		DCD9C77229B15B1600B2425C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9C77129B15B1600B2425C /* SceneDelegate.swift */; };
-		DCD9C77429B15B1600B2425C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9C77329B15B1600B2425C /* ViewController.swift */; };
-		DCD9C77729B15B1600B2425C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD9C77529B15B1600B2425C /* Main.storyboard */; };
 		DCD9C77929B15B1700B2425C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD9C77829B15B1700B2425C /* Assets.xcassets */; };
 		DCD9C77C29B15B1700B2425C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD9C77A29B15B1700B2425C /* LaunchScreen.storyboard */; };
+		DCD9C78629B15B9D00B2425C /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9C78529B15B9D00B2425C /* MainCoordinator.swift */; };
+		DCD9C78A29B15BFD00B2425C /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9C78929B15BFD00B2425C /* NavigationController.swift */; };
+		DCD9C78C29B15C0B00B2425C /* CoordinatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9C78B29B15C0B00B2425C /* CoordinatorController.swift */; };
+		DCD9C78F29B15C5300B2425C /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9C78E29B15C5300B2425C /* UIFont+Extensions.swift */; };
+		DCD9C79129B15C8000B2425C /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9C79029B15C8000B2425C /* UIColor+Extensions.swift */; };
+		DCD9C79429B15D9900B2425C /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9C79329B15D9900B2425C /* UIViewController+Extensions.swift */; };
+		DCD9C79A29B15F3C00B2425C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9C79929B15F3C00B2425C /* HomeView.swift */; };
+		DCD9C79C29B15F4400B2425C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9C79B29B15F4400B2425C /* HomeViewModel.swift */; };
+		DCD9C79E29B15F4C00B2425C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9C79D29B15F4C00B2425C /* HomeViewController.swift */; };
+		DCD9C7A129B15F8B00B2425C /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9C7A029B15F8B00B2425C /* HomeService.swift */; };
+		DCD9C7A629B1607100B2425C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9C7A529B1607000B2425C /* ContentView.swift */; };
+		DCD9C7A829B160B500B2425C /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9C7A729B160B500B2425C /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34E454236365AE082AC7CCEF /* Pods-YahooFinances.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YahooFinances.debug.xcconfig"; path = "Target Support Files/Pods-YahooFinances/Pods-YahooFinances.debug.xcconfig"; sourceTree = "<group>"; };
+		8DB129C76805C6A4F32BF23F /* Pods_YahooFinances.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YahooFinances.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0760AD29B2864F0025DD69 /* FlutterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlutterManager.swift; sourceTree = "<group>"; };
+		DC3C13AE29B232E500CE471B /* ActiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveCell.swift; sourceTree = "<group>"; };
+		DC3C13B029B233C400CE471B /* ActiveCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveCellModel.swift; sourceTree = "<group>"; };
+		DC3C13B229B236B600CE471B /* UITableViewCell+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extensions.swift"; sourceTree = "<group>"; };
+		DCB8865E29B20FAF002D7C3B /* YahooFinancesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahooFinancesProvider.swift; sourceTree = "<group>"; };
+		DCB8866029B21049002D7C3B /* YahooFinancesModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahooFinancesModels.swift; sourceTree = "<group>"; };
+		DCD7A2FA29B58E2C00EF1C4F /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
 		DCD9C76C29B15B1600B2425C /* YahooFinances.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YahooFinances.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD9C76F29B15B1600B2425C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DCD9C77129B15B1600B2425C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DCD9C77329B15B1600B2425C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DCD9C77629B15B1600B2425C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCD9C77829B15B1700B2425C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCD9C77B29B15B1700B2425C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCD9C77D29B15B1700B2425C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD9C78529B15B9D00B2425C /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		DCD9C78929B15BFD00B2425C /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		DCD9C78B29B15C0B00B2425C /* CoordinatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorController.swift; sourceTree = "<group>"; };
+		DCD9C78E29B15C5300B2425C /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
+		DCD9C79029B15C8000B2425C /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		DCD9C79329B15D9900B2425C /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		DCD9C79929B15F3C00B2425C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DCD9C79B29B15F4400B2425C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		DCD9C79D29B15F4C00B2425C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DCD9C7A029B15F8B00B2425C /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
+		DCD9C7A529B1607000B2425C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DCD9C7A729B160B500B2425C /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		DF6342BB23B0D0419AAF9945 /* Pods-YahooFinances.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YahooFinances.release.xcconfig"; path = "Target Support Files/Pods-YahooFinances/Pods-YahooFinances.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +69,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC3C13AC29B22EDD00CE471B /* SwiftyJSON in Frameworks */,
+				DC3C13A929B22EB600CE471B /* Alamofire in Frameworks */,
+				796A0E0B32D3BAD7207D7923 /* Pods_YahooFinances.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0148A8A1D056CB4877B19832 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34E454236365AE082AC7CCEF /* Pods-YahooFinances.debug.xcconfig */,
+				DF6342BB23B0D0419AAF9945 /* Pods-YahooFinances.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C40BB3042A720EFEF1BFE4F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DB129C76805C6A4F32BF23F /* Pods_YahooFinances.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC3C13AD29B2324A00CE471B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DC3C13AE29B232E500CE471B /* ActiveCell.swift */,
+				DC3C13B029B233C400CE471B /* ActiveCellModel.swift */,
+				DCD7A2FA29B58E2C00EF1C4F /* HeaderCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		DCB8865D29B20F9C002D7C3B /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				DCB8865E29B20FAF002D7C3B /* YahooFinancesProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
 		DCD9C76329B15B1600B2425C = {
 			isa = PBXGroup;
 			children = (
 				DCD9C76E29B15B1600B2425C /* YahooFinances */,
 				DCD9C76D29B15B1600B2425C /* Products */,
+				0148A8A1D056CB4877B19832 /* Pods */,
+				C40BB3042A720EFEF1BFE4F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +134,125 @@
 		DCD9C76E29B15B1600B2425C /* YahooFinances */ = {
 			isa = PBXGroup;
 			children = (
-				DCD9C76F29B15B1600B2425C /* AppDelegate.swift */,
-				DCD9C77129B15B1600B2425C /* SceneDelegate.swift */,
-				DCD9C77329B15B1600B2425C /* ViewController.swift */,
-				DCD9C77529B15B1600B2425C /* Main.storyboard */,
-				DCD9C77829B15B1700B2425C /* Assets.xcassets */,
-				DCD9C77A29B15B1700B2425C /* LaunchScreen.storyboard */,
-				DCD9C77D29B15B1700B2425C /* Info.plist */,
+				DCB8865D29B20F9C002D7C3B /* Provider */,
+				DCD9C78329B15B7900B2425C /* AppDelegate */,
+				DCD9C78429B15B8300B2425C /* Coordinator */,
+				DCD9C78729B15BE500B2425C /* Helpers */,
+				DCD9C79529B15F1100B2425C /* Models */,
+				DCD9C79F29B15F7F00B2425C /* Services */,
+				DCD9C79229B15C9100B2425C /* Supporting Files */,
+				DCD9C79629B15F1800B2425C /* ViewControllers */,
+				DCD9C79729B15F2300B2425C /* Views */,
 			);
 			path = YahooFinances;
+			sourceTree = "<group>";
+		};
+		DCD9C78329B15B7900B2425C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				DCD9C76F29B15B1600B2425C /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		DCD9C78429B15B8300B2425C /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				DCD9C78529B15B9D00B2425C /* MainCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		DCD9C78729B15BE500B2425C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DCD9C78D29B15C4500B2425C /* Extensions */,
+				DCD9C78829B15BED00B2425C /* Controls */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DCD9C78829B15BED00B2425C /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				DCD9C78B29B15C0B00B2425C /* CoordinatorController.swift */,
+				DCD9C78929B15BFD00B2425C /* NavigationController.swift */,
+				DC0760AD29B2864F0025DD69 /* FlutterManager.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		DCD9C78D29B15C4500B2425C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DCD9C78E29B15C5300B2425C /* UIFont+Extensions.swift */,
+				DCD9C79029B15C8000B2425C /* UIColor+Extensions.swift */,
+				DCD9C79329B15D9900B2425C /* UIViewController+Extensions.swift */,
+				DCD9C7A729B160B500B2425C /* UIView+Extensions.swift */,
+				DC3C13B229B236B600CE471B /* UITableViewCell+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DCD9C79229B15C9100B2425C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCD9C77D29B15B1700B2425C /* Info.plist */,
+				DCD9C77829B15B1700B2425C /* Assets.xcassets */,
+				DCD9C77A29B15B1700B2425C /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCD9C79529B15F1100B2425C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DCB8866029B21049002D7C3B /* YahooFinancesModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DCD9C79629B15F1800B2425C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DCD9C79829B15F3500B2425C /* Home */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DCD9C79729B15F2300B2425C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DCD9C7A429B1606400B2425C /* Base */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DCD9C79829B15F3500B2425C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DC3C13AD29B2324A00CE471B /* Cells */,
+				DCD9C79929B15F3C00B2425C /* HomeView.swift */,
+				DCD9C79D29B15F4C00B2425C /* HomeViewController.swift */,
+				DCD9C79B29B15F4400B2425C /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DCD9C79F29B15F7F00B2425C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DCD9C7A029B15F8B00B2425C /* HomeService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DCD9C7A429B1606400B2425C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DCD9C7A529B1607000B2425C /* ContentView.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +262,22 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCD9C78029B15B1700B2425C /* Build configuration list for PBXNativeTarget "YahooFinances" */;
 			buildPhases = (
+				236AF2A28A0CA762AB2693F7 /* [CP] Check Pods Manifest.lock */,
+				18CE24135D88B57F631BED6F /* [CP-User] Run Flutter Build yahoo_finances_module Script */,
 				DCD9C76829B15B1600B2425C /* Sources */,
 				DCD9C76929B15B1600B2425C /* Frameworks */,
 				DCD9C76A29B15B1600B2425C /* Resources */,
+				B42B68E067F180A967E84BA8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = YahooFinances;
+			packageProductDependencies = (
+				DC3C13A829B22EB600CE471B /* Alamofire */,
+				DC3C13AB29B22EDD00CE471B /* SwiftyJSON */,
+			);
 			productName = YahooFinances;
 			productReference = DCD9C76C29B15B1600B2425C /* YahooFinances.app */;
 			productType = "com.apple.product-type.application";
@@ -103,7 +298,7 @@
 				};
 			};
 			buildConfigurationList = DCD9C76729B15B1600B2425C /* Build configuration list for PBXProject "YahooFinances" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -111,6 +306,10 @@
 				Base,
 			);
 			mainGroup = DCD9C76329B15B1600B2425C;
+			packageReferences = (
+				DC3C13A729B22EB600CE471B /* XCRemoteSwiftPackageReference "Alamofire" */,
+				DC3C13AA29B22EDD00CE471B /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = DCD9C76D29B15B1600B2425C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,34 +326,94 @@
 			files = (
 				DCD9C77C29B15B1700B2425C /* LaunchScreen.storyboard in Resources */,
 				DCD9C77929B15B1700B2425C /* Assets.xcassets in Resources */,
-				DCD9C77729B15B1600B2425C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18CE24135D88B57F631BED6F /* [CP-User] Run Flutter Build yahoo_finances_module Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Run Flutter Build yahoo_finances_module Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/yahoo_finances_module/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+		236AF2A28A0CA762AB2693F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YahooFinances-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B42B68E067F180A967E84BA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YahooFinances/Pods-YahooFinances-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YahooFinances/Pods-YahooFinances-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YahooFinances/Pods-YahooFinances-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DCD9C76829B15B1600B2425C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCD9C77429B15B1600B2425C /* ViewController.swift in Sources */,
+				DCD9C7A829B160B500B2425C /* UIView+Extensions.swift in Sources */,
+				DCD9C79A29B15F3C00B2425C /* HomeView.swift in Sources */,
+				DCD9C78A29B15BFD00B2425C /* NavigationController.swift in Sources */,
+				DCD9C79C29B15F4400B2425C /* HomeViewModel.swift in Sources */,
+				DCB8865F29B20FAF002D7C3B /* YahooFinancesProvider.swift in Sources */,
+				DCD9C78629B15B9D00B2425C /* MainCoordinator.swift in Sources */,
 				DCD9C77029B15B1600B2425C /* AppDelegate.swift in Sources */,
-				DCD9C77229B15B1600B2425C /* SceneDelegate.swift in Sources */,
+				DC3C13B129B233C400CE471B /* ActiveCellModel.swift in Sources */,
+				DC3C13B329B236B600CE471B /* UITableViewCell+Extensions.swift in Sources */,
+				DC3C13AF29B232E500CE471B /* ActiveCell.swift in Sources */,
+				DCD9C7A129B15F8B00B2425C /* HomeService.swift in Sources */,
+				DCD9C79429B15D9900B2425C /* UIViewController+Extensions.swift in Sources */,
+				DCD9C79E29B15F4C00B2425C /* HomeViewController.swift in Sources */,
+				DCD9C79129B15C8000B2425C /* UIColor+Extensions.swift in Sources */,
+				DCB8866129B21049002D7C3B /* YahooFinancesModels.swift in Sources */,
+				DCD9C7A629B1607100B2425C /* ContentView.swift in Sources */,
+				DCD7A2FB29B58E2C00EF1C4F /* HeaderCell.swift in Sources */,
+				DCD9C78F29B15C5300B2425C /* UIFont+Extensions.swift in Sources */,
+				DCD9C78C29B15C0B00B2425C /* CoordinatorController.swift in Sources */,
+				DC0760AE29B2864F0025DD69 /* FlutterManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DCD9C77529B15B1600B2425C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DCD9C77629B15B1600B2425C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DCD9C77A29B15B1700B2425C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +541,7 @@
 		};
 		DCD9C78129B15B1700B2425C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34E454236365AE082AC7CCEF /* Pods-YahooFinances.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,10 +549,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J5U8W7UXQK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = YahooFinances/Info.plist;
+				INFOPLIST_FILE = "YahooFinances/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +569,7 @@
 		};
 		DCD9C78229B15B1700B2425C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF6342BB23B0D0419AAF9945 /* Pods-YahooFinances.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,10 +577,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J5U8W7UXQK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = YahooFinances/Info.plist;
+				INFOPLIST_FILE = "YahooFinances/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +617,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DC3C13A729B22EB600CE471B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		DC3C13AA29B22EDD00CE471B /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DC3C13A829B22EB600CE471B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC3C13A729B22EB600CE471B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		DC3C13AB29B22EDD00CE471B /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC3C13AA29B22EDD00CE471B /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DCD9C76429B15B1600B2425C /* Project object */;
 }
